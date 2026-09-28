@@ -42,7 +42,7 @@ name" lesson, proven with a stopwatch.
 
 ## Setup
 
-This project uses **uv**. Why uv here: the **Microsoft Agent Framework** GA wheels publish for **Python 3.10 - 3.13 only**, and `uv` reads the pinned **`.python-version` (3.13)** to build the virtual environment on the right interpreter automatically, so the wheels install even when your system default is Python 3.14.
+This project uses **uv**. Why uv here: the **Microsoft Agent Framework** GA wheels publish for **Python 3.10 - 3.13 only**, and `uv` reads the pinned **`.python-version` (3.12)** to build the virtual environment on the right interpreter automatically, so the wheels install even when your system default is Python 3.14.
 
 PowerShell 7:
 
@@ -90,12 +90,3 @@ User: Remind me which plan I'm on and what refund you just queued for me.
 Agent: You're on the Premium plan, and I queued an $80.00 full refund (ticket RF-3175).
 ```
 
-## How this maps to the exam
-
-The agent demo touches every Lesson-1 objective group at once: model selection,
-service selection, retrieval/indexing, and agent memory/tool/knowledge integration.
-When an exam stem describes "an agent that answers from internal docs and takes an
-action," you should now see the building blocks behind it.
-
----
-Part of the [AI-103 course repository](https://github.com/timothywarner-org/ai103) by Tim Warner.
